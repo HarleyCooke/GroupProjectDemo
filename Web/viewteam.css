@@ -1,0 +1,67 @@
+td {
+    font-size: 90%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+    color: black
+}
+#teamTableContainer {
+    padding: 5px;
+}
+
+.nav-link {
+  color: rgba(0,0,0,.9) !important; 
+}
+
+#Team {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+}
+
+body { 
+    background: url("BackGround.jpg");
+    background-size: 130%;
+    width: 100%;    
+  }
+
+#logo {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+#Main {
+    padding: 15px;
+}
+
+#logo_ { 
+    width: 50%; 
+    height: 50%; 
+    object-fit: contain; 
+} 
+
+#teamTable_info, a#teamTable_previous.paginate_button.previous.disabled, 
+a#teamTable_previous.paginate_button.previous, a#teamTable_next.paginate_button.next.disabled, 
+a#teamTable_next.paginate_button.next, span.ellipsis,#teamTable_paginate > span > a{
+  color: lightgray !important ;  
+}
+#teamTable_paginate > span > a.paginate_button.current {
+  color: #333 !important;
+}
+
+#Team{
+  width: 30%
+}
+
+#UserTeam {
+  width: 70%
+}
+
+#UserTeam_info {
+  color: transparent;
+}
